@@ -358,9 +358,7 @@ const POOL_FUNCTIONS: FunctionItem[] = [
     description:
       "Facilitation, coaching, & cohort enablement, and LMS posting for digital content",
     roles: [
-      { id: "facilitation-lead", title: "Facilitation Lead" },
-      { id: "facilitator", title: "Facilitator" },
-      { id: "coach", title: "Coach" },
+      { id: "facilitator-coach", title: "Facilitator / Coach" },
     ],
   },
 ];
