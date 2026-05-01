@@ -621,10 +621,7 @@ const POOL_FUNCTIONS: FunctionItem[] = [
     description:
       "Content design and development, content curation, & AI-assisted authoring / generation, course maintenance",
     roles: [
-      {
-        id: "learning-engineer",
-        title: "Learning Engineer (Instructional Designers)",
-      },
+      { id: "learning-engineer", title: "Learning Engineer" },
       { id: "curriculum-designer", title: "Curriculum Designer" },
       { id: "ai-content-architect", title: "AI Content Architect" },
     ],
