@@ -1193,8 +1193,10 @@ export default function OperatingModel() {
               Learning &amp; KM Operating Model Design
             </h1>
             <p className="mt-1 text-[13px] text-ink-muted">
-              Click any function to reveal its description. Tab and press
-              Enter / Space for keyboard navigation.
+              Click any function to reveal its description, then click &ldquo;View
+              Key Roles&rdquo; to see the roles within. Click any role title to
+              open its full role card. Tab and press Enter / Space for keyboard
+              navigation.
             </p>
           </div>
           <button
