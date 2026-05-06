@@ -1,13 +1,19 @@
 import { useState } from "react";
 import NorthStarCharter from "./components/NorthStarCharter";
 import OperatingModel from "./components/OperatingModel";
+import RoleInventory from "./components/RoleInventory";
 import SkillsCapabilities from "./components/SkillsCapabilities";
 
-type View = "north-star" | "operating-model" | "skills-capabilities";
+type View =
+  | "north-star"
+  | "operating-model"
+  | "role-inventory"
+  | "skills-capabilities";
 
 const TABS: { id: View; label: string }[] = [
   { id: "north-star", label: "North Star & Charter" },
   { id: "operating-model", label: "Operating Model" },
+  { id: "role-inventory", label: "Role Inventory" },
   { id: "skills-capabilities", label: "Skills & Capabilities" },
 ];
 
@@ -46,6 +52,8 @@ export default function App() {
         <NorthStarCharter />
       ) : view === "operating-model" ? (
         <OperatingModel />
+      ) : view === "role-inventory" ? (
+        <RoleInventory />
       ) : (
         <SkillsCapabilities />
       )}
