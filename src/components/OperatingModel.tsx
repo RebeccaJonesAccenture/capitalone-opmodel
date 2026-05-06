@@ -19,7 +19,7 @@ type FunctionItem = {
 
 type Layer = "core" | "pool" | "focus";
 
-type RoleCardData = {
+export type RoleCardData = {
   id: string;
   layer: "Central Core" | "Capability Pool";
   title: string;
@@ -29,7 +29,7 @@ type RoleCardData = {
   outcomes: string[];
 };
 
-const ROLE_CARDS: Record<string, RoleCardData> = {
+export const ROLE_CARDS: Record<string, RoleCardData> = {
   "head-of-learning": {
     id: "head-of-learning",
     layer: "Central Core",
@@ -819,7 +819,7 @@ type RoleModalProps = {
   onClose: () => void;
 };
 
-function RoleModal({ role, onClose }: RoleModalProps) {
+export function RoleModal({ role, onClose }: RoleModalProps) {
   // Lock background scroll while modal is open.
   useEffect(() => {
     const original = document.body.style.overflow;
