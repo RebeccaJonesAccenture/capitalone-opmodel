@@ -1,16 +1,18 @@
 import { useState } from "react";
+import NorthStarCharter from "./components/NorthStarCharter";
 import OperatingModel from "./components/OperatingModel";
 import SkillsCapabilities from "./components/SkillsCapabilities";
 
-type View = "operating-model" | "skills-capabilities";
+type View = "north-star" | "operating-model" | "skills-capabilities";
 
 const TABS: { id: View; label: string }[] = [
+  { id: "north-star", label: "North Star & Charter" },
   { id: "operating-model", label: "Operating Model" },
   { id: "skills-capabilities", label: "Skills & Capabilities" },
 ];
 
 export default function App() {
-  const [view, setView] = useState<View>("operating-model");
+  const [view, setView] = useState<View>("north-star");
 
   return (
     <div className="bg-white">
@@ -40,7 +42,13 @@ export default function App() {
         </div>
       </nav>
 
-      {view === "operating-model" ? <OperatingModel /> : <SkillsCapabilities />}
+      {view === "north-star" ? (
+        <NorthStarCharter />
+      ) : view === "operating-model" ? (
+        <OperatingModel />
+      ) : (
+        <SkillsCapabilities />
+      )}
     </div>
   );
 }
