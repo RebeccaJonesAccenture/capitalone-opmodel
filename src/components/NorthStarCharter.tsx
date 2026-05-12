@@ -110,7 +110,14 @@ const WHAT_WE_DO: CharterGroup[] = [
     heading: "Intake & Content Lifecycle",
     bullets: [
       "Identify the intake and prioritization process on business needs (learning-focused, then redirected support for interventions that are change, communications talent, etc.)",
-      "Oversee knowledge assets and the full content lifecycle",
+      "Oversee the content lifecycle",
+    ],
+  },
+  {
+    heading: "Knowledge Management",
+    bullets: [
+      "Lead policy and procedure governance, creation, and maintenance",
+      "Manage policy and procedure content lifecycle",
     ],
   },
   {
