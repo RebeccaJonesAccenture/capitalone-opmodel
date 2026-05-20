@@ -19,8 +19,9 @@ type FrameworkTier = {
 const FRAMEWORK: FrameworkTier[] = [
   {
     number: 1,
-    heading: "FOUNDATIONAL",
-    subheading: "Non-negotiable across every role",
+    heading: "ANCHORING",
+    subheading:
+      "Holds the function steady — without these, nothing else works",
     accent: "primary",
     skills: [
       {
@@ -139,7 +140,7 @@ type HeatmapTier = {
 
 const HEATMAP: HeatmapTier[] = [
   {
-    label: "TIER 1 · FOUNDATIONAL",
+    label: "TIER 1 · ANCHORING",
     rows: [
       {
         skill: "Performance Consulting",
@@ -345,7 +346,7 @@ export default function SkillsCapabilities() {
               Skills &amp; Capabilities by Role
             </h2>
             <p className="mt-1 max-w-[920px] text-[13px] leading-relaxed text-ink-muted">
-              Required proficiency by role across the foundational,
+              Required proficiency by role across the anchoring,
               differentiating, and new &amp; emerging skills behind the
               operating model.
             </p>
