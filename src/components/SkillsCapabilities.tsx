@@ -215,7 +215,7 @@ const HEATMAP: HeatmapTier[] = [
       {
         skill: "Learning Culture Transformation",
         ratings: [
-          "M", "M", "M", "H", "H", "L", "L", "M", "H", "M", "L", "L", "L", "H",
+          "H", "H", "M", "L", "L", "M", "L", "H", "M", "L", "L", "L", "L", "M",
         ],
       },
     ],
