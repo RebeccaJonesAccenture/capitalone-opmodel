@@ -20,8 +20,7 @@ const FRAMEWORK: FrameworkTier[] = [
   {
     number: 1,
     heading: "ANCHORING",
-    subheading:
-      "Holds the function steady — without these, nothing else works",
+    subheading: "Holds the learning capability steady",
     accent: "primary",
     skills: [
       {
@@ -53,7 +52,7 @@ const FRAMEWORK: FrameworkTier[] = [
   {
     number: 2,
     heading: "DIFFERENTIATING",
-    subheading: "What makes the function modern",
+    subheading: "What drives the return on learning",
     accent: "medium",
     skills: [
       {
@@ -66,9 +65,9 @@ const FRAMEWORK: FrameworkTier[] = [
           "Modular, reusable content systems, not standalone assets",
       },
       {
-        name: "Learner Experience Transformation",
+        name: "Learning Culture Transformation",
         description:
-          "Shift from courses to continuous, role-relevant capability building",
+          "Shift the enterprise from training events to continuous capability building",
       },
       {
         name: "Experimentation & Innovation at Scale",
@@ -84,7 +83,7 @@ const FRAMEWORK: FrameworkTier[] = [
   {
     number: 3,
     heading: "NEW & EMERGING",
-    subheading: "Where the function is heading next",
+    subheading: "What's needed to evolve and grow",
     accent: "vivid",
     skills: [
       {
@@ -214,7 +213,7 @@ const HEATMAP: HeatmapTier[] = [
         ],
       },
       {
-        skill: "Learner Experience Transformation",
+        skill: "Learning Culture Transformation",
         ratings: [
           "M", "M", "M", "H", "H", "L", "L", "M", "H", "M", "L", "L", "L", "H",
         ],
